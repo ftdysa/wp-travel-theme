@@ -1,0 +1,114 @@
+.main-content-wrapper {
+    .make-row();
+    margin-right: 0px;
+}
+
+// Header
+// Hide mobile header until we are tablet sized where sidebar is hidden
+.mobile-nav {
+  .responsive-invisibility();
+
+  .container {
+    padding-left: 40px;
+  }
+
+  .container > .navbar-header > .navbar-toggle {
+    .pull-left();
+  }
+}
+
+@media (max-width: @screen-md-min) {
+  .mobile-nav {
+    .responsive-visibility();
+  }
+}
+
+.travel-header {
+  border-bottom: 1px solid @brand-primary;
+  background: url(@header-background-image) no-repeat;
+  position: relative;
+  height: @header-height;
+  margin-bottom: 20px;
+
+  .container {
+    position: relative;
+    padding-top: 335px;
+    h1 {
+      font-size: 40px;
+      color: #fff;
+      .pull-left();
+      margin-top: 0;
+    }
+  }
+}
+
+// Affixed sidebar
+.sidebar.affix {
+  position: static;
+}
+
+@media (min-width: @screen-md-min) {
+  .sidebar {
+    border-left: 1px solid @brand-primary;
+    h4 {
+      margin-left: 20px;
+    }
+  }
+
+  .sidebar .nav > .active > ul {
+    display: block;
+  }
+
+  .sidebar.affix {
+    position: fixed; /* Undo the static from mobile first approach */
+    top: 20px;
+  }
+  .sidebar.affix-bottom {
+    position: absolute; /* Undo the static from mobile first approach */
+  }
+  .sidebar.affix-bottom .nav-sidebar,
+  .sidebar.affix .nav-sidebar {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.nav-sidebar {
+   > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+
+    &:hover, &:focus {
+      color: #fff;
+      background-color: lighten(@brand-primary, 15%);
+    }
+  }
+
+  > .active > a {
+    color: #fff;
+    background-color: lighten(@brand-primary, 15%);
+  }
+}
+
+.main {
+  .page-header {
+    margin-top: 0;
+  }
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  margin-top: 40px;
+  color: @gray-light;
+  text-align: center;
+  border-top: 1px solid @brand-primary;
+}
+
+.home {
+  i {
+    .fa();
+    &:before { content: @fa-var-home }
+  }
+}
