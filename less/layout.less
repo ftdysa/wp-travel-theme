@@ -1,7 +1,13 @@
+body {
+  background-color: lighten(@gray-lighter, 5%);
+}
+
 .main-content-wrapper {
     .make-row();
     margin-right: 0px;
     min-height: 500px;
+    background-color: #fff;
+    padding: 20px;
 }
 
 // Header
@@ -29,7 +35,6 @@
   background: url(@header-background-image) no-repeat;
   position: relative;
   height: @header-height;
-  margin-bottom: 20px;
 
   .container {
     position: relative;
@@ -95,16 +100,19 @@
   .page-header {
     margin-top: 0;
   }
+  padding-bottom: 20px;
+  border-bottom: 4px dashed @gray-light;
+  margin-bottom: 20px;
 }
 
 .footer {
   padding-top: 20px;
   padding-bottom: 20px;
 
-  margin-top: 40px;
   color: @gray-light;
   text-align: center;
   border-top: 1px solid @brand-primary;
+  background-color: lighten(@gray-lighter, 5%);
 }
 
 .home {

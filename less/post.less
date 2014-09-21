@@ -7,8 +7,11 @@
 }
 
 .post-header {
-  border-bottom: 1px solid @brand-warning;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+
+  .post-meta {
+    color: @headings-small-color;
+  }
 }
 
 .post-content {
@@ -23,3 +26,10 @@
   height: @screen-sm-min;
 }
 
+.share {
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
