@@ -1,12 +1,6 @@
 <?php get_header() ?>
 
 <div class="col-md-9">
-
-
-    <nav class="main-nav clearfix">
-        <a class="home" href="/"><i></i> Home</a>
-    </nav>
-
     <?php
     if ( have_posts() ) :
         // Start the Loop.
