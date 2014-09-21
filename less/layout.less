@@ -2,6 +2,16 @@ body {
   background-color: lighten(@gray-lighter, 5%);
 }
 
+.top-link {
+  .invisible();
+}
+
+.go-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
 .main-content-wrapper {
     .make-row();
     margin-right: 0px;
@@ -55,7 +65,8 @@ body {
 
 @media (min-width: @screen-md-min) {
   .sidebar {
-    border-left: 1px solid @brand-primary;
+    border-left: 1px solid @brand-warning;
+    font-size: .9em;
     h4 {
       margin-left: 20px;
     }
@@ -87,13 +98,13 @@ body {
 
     &:hover, &:focus {
       color: #fff;
-      background-color: lighten(@brand-primary, 15%);
+      background-color: @brand-warning;
     }
   }
 
   > .active > a {
     color: #fff;
-    background-color: lighten(@brand-primary, 15%);
+    background-color: @brand-warning;
   }
 }
 

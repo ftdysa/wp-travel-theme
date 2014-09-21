@@ -1,5 +1,12 @@
     </div>
 </div>
+<a href="#top" class="go-to-top">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+    </span>
+</a>
+
 <footer class="footer">
     <div class="container">
         <p>
