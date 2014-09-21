@@ -6,8 +6,21 @@
             <li class="nav-item nav-item-waypoints"><a href="/waypoints"><i class="fa fa-map-marker fa-fw"></i> Waypoints</a></li>
             <li><a href="<?php bloginfo('rss_url'); ?>"><i class="fa fa-fw fa-thumbs-up"></i> Subscribe</a></li>
         </ul>
-        <h4>Tags</h4>
-        <ul class="nav nav-sidebar tags-sidebar">
+        <h4>Recent Posts</h4>
+        <ul class="nav nav-sidebar">
+        <?php
+        foreach (wp_get_recent_posts() as $post) {
+            echo sprintf(
+                '<li><a href="%s">%s</a></li>',
+                esc_url(get_permalink($post['ID'])),
+                $post['post_title']
+            );
+        }
+        ?>
+        </ul>
+        <h4>Categories</h4>
+        <ul class="nav nav-sidebar">
+        <?php wp_list_categories('title_li='); ?></php>
         </ul>
     </div>
 </div>

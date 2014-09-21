@@ -1,10 +1,11 @@
+    </div>
 </div>
 <footer class="footer">
     <div class="container">
         <p>
-            <a href="https://ghost.org/">Ghost</a>
+            <a href="https://wordpress.org/">Wordpress</a>
             theme design by <a href="/about">Fred</a>
-            <a href="https://github.com/ftdysa/ghost-travel-template">
+            <a href="https://github.com/ftdysa/wp-travel-template">
                 <span class="fa-stack">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-inverse fa-stack-1x"></i>

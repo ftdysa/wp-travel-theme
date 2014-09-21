@@ -3,25 +3,21 @@
     <article>
         <header class="post-header">
             <?php
-                the_title('<h1 class="entry-title"><a href="' . esc_url(get_permalink()) . '" rel="bookmark">',
-                    '</a>
+            the_title('<h1 class="entry-title"><a href="' . esc_url(get_permalink()) . '" rel="bookmark">',
+                '</a>
                     <small><time class="post-date" datetime="'. get_the_date() .'">'.get_the_date().'</time></small>
                     </a></h1>'
-                );
+            );
 
             ?>
             <div class="post-tags">
-            <?php the_tags('Tagged with: '); ?>
+                <?php the_tags('Tagged with: '); ?>
             </div>
         </header>
 
         <section class="post-content">
-            <?php if (is_search()) {
-                the_excerpt();
-            } else {
-                the_content();
-            }
-            ?>
+            <?php the_excerpt(); ?>
+            <a href="<?php echo esc_url(get_permalink()); ?>">Continue Reading <i class="fa fa-arrow-right"></i></a>
         </section>
 
         <footer class="post-footer">
@@ -31,7 +27,6 @@
                 <p>Read <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta( 'ID' ))) ?>">more posts</a> by this author.</p>
             </section>
         </footer>
-
 
         <section class="share">
             <h4>Like this post? Share it or something.</h4>
