@@ -16,19 +16,16 @@ $(function() {
     });
 
     function setActiveNav(item) {
-        console.log(item);
         $(".nav-item").removeClass('active');
         $(".nav-item-" + item).addClass('active');
     }
-
-    console.log(document.location);
 
     if (document.location.pathname == '/') {
         setActiveNav("home");
     } else if (document.location.pathname == '/about/') {
         setActiveNav("about");
-    } else if (document.location.pathname == '/waypoints/') {
-        setActiveNav("waypoints");
+    } else if (document.location.pathname == '/map/') {
+        setActiveNav("map");
     }
 
 });

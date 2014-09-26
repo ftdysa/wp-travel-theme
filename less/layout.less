@@ -65,7 +65,6 @@ body {
 
 @media (min-width: @screen-md-min) {
   .sidebar {
-    border-left: 1px solid @brand-warning;
     font-size: .9em;
     h4 {
       margin-left: 20px;
@@ -97,14 +96,17 @@ body {
     padding-left: 20px;
 
     &:hover, &:focus {
-      color: #fff;
-      background-color: @brand-warning;
+        color: @brand-warning;
+        font-weight: bold;
+        border-left: 2px solid @brand-warning;
+        background-color: #fff;
     }
   }
 
   > .active > a {
-    color: #fff;
-    background-color: @brand-warning;
+    color: @brand-warning;
+    font-weight: bold;
+    border-left: 2px solid @brand-warning;
   }
 }
 
