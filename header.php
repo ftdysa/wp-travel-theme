@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>The Ds Overseas</title>
+    <title><?php wp_title( '|', true, 'right' ); ?> The Ds Overseas</title>
 
     <link href="<?php echo get_template_directory_uri(); ?>/css/site.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic|Open+Sans:700,400" />
