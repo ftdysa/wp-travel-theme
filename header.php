@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title><?php wp_title( '|', true, 'right' ); ?></title>
+    <title>The Ds Overseas</title>
 
     <link href="<?php echo get_template_directory_uri(); ?>/css/site.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic|Open+Sans:700,400" />
@@ -49,7 +49,7 @@
 
 <div class="travel-header">
     <div class="container">
-        <h1><i class="fa fa-briefcase"></i> The D's Overseas</h1>
+        <h1><i class="fa fa-briefcase"></i> The Ds Overseas</h1>
     </div>
 </div>
 
