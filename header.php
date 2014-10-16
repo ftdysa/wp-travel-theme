@@ -69,7 +69,7 @@
 <div class="travel-header">
     <div class="container">
         <h1><i class="fa fa-briefcase"></i> The Ds Overseas</h1>
-        <a class="pull-right" href="<?php bloginfo('rss_url'); ?>"><i class="fa fa-2x fa-rss"></i></a>
+        <a class="rss" href="<?php bloginfo('rss_url'); ?>"><i class="fa fa-2x fa-rss"></i></a>
     </div>
 </div>
 
