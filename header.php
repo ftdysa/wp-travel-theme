@@ -27,7 +27,7 @@
 </head>
 <body>
 <nav class="mobile-nav navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
+    <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -41,13 +41,27 @@
                 <li class="nav-item nav-item-home"><a href="/"><i class="fa fa-home fa-fw"></i> Home</a></li>
                 <li class="nav-item nav-item-about"><a href="/about"><i class="fa fa-users fa-fw"></i> About</a></li>
                 <li class="nav-item nav-item-waypoints"><a href="/map"><i class="fa fa-map-marker fa-fw"></i> Map</a></li>
-                <li>
-                    <form class="form-inline">
-                        
-
-                    </form>
-                </li>
-            </ul>
+	    </ul>
+                                <form id="form-wysija-html543bdcdf477de-1" method="post" action="#wysija" class="navbar-left navbar-form widget_wysija html_wysija" role="form"> 
+                                
+            <div id="msg-form-wysija-html543bdcdf477de-1" class="wysija-msg ajax"></div> 
+                                <div class="form-group"> 
+                                                <label for="subscribe-name">Name</label> 
+                                                <input style="width: 100px;" id="subscribe-name" type="text" name="wysija[field][cf_1]" class="form-control wysija-input validate[required]" title="Name"  value="" /> 
+                                        </div> 
+                                        <div class="form-group"> 
+                                                <label for="subscribe-email">Email</label> 
+                                                <input id="subscribe-email" style="width: 100px;" type="text" name="wysija[user][email]" class="form-control wysija-input validate[required,custom[email]]" title="Email"  value="" /> 
+                                        </div> 
+                                        <input type="hidden" name="form_id" value="1" /> 
+                                        <input type="hidden" name="action" value="save" /> 
+                                        <input type="hidden" name="controller" value="subscribers" /> 
+                                        <input type="hidden" value="1" name="wysija-page" /> 
+                                        <input type="hidden" name="wysija[user_list][list_ids]" value="1" /> 
+                                        <input type="hidden" value="d7139e7b4e" id="wysijax" /> 
+                                        <button class="btn btn-primary" type="submit">Subscribe via Email</button> 
+                                </form> 
+ 
         </div>
     </div>
 </nav>
