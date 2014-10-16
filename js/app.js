@@ -1,6 +1,6 @@
 $(function() {
    var $sidebar = $("#affixed-sidebar");
-   $sidebar.affix({
+/*   $sidebar.affix({
         offset: {
             top: function () {
                 var offsetTop      = $sidebar.offset().top
@@ -14,7 +14,7 @@ $(function() {
             }
         }
     });
-
+*/
     function setActiveNav(item) {
         $(".nav-item").removeClass('active');
         $(".nav-item-" + item).addClass('active');

@@ -40,8 +40,13 @@
             <ul class="nav navbar-nav mobile-nav-list">
                 <li class="nav-item nav-item-home"><a href="/"><i class="fa fa-home fa-fw"></i> Home</a></li>
                 <li class="nav-item nav-item-about"><a href="/about"><i class="fa fa-users fa-fw"></i> About</a></li>
-                <li class="nav-item nav-item-waypoints"><a href="/waypoints"><i class="fa fa-map-marker fa-fw"></i> Waypoints</a></li>
-                <li><a href="{{@blog.url}}/rss/"><i class="fa fa-fw fa-thumbs-up"></i> Subscribe</a></li>
+                <li class="nav-item nav-item-waypoints"><a href="/map"><i class="fa fa-map-marker fa-fw"></i> Map</a></li>
+                <li>
+                    <form class="form-inline">
+                        
+
+                    </form>
+                </li>
             </ul>
         </div>
     </div>
@@ -50,6 +55,7 @@
 <div class="travel-header">
     <div class="container">
         <h1><i class="fa fa-briefcase"></i> The Ds Overseas</h1>
+        <a class="pull-right" href="<?php bloginfo('rss_url'); ?>"><i class="fa fa-2x fa-rss"></i></a>
     </div>
 </div>
 
