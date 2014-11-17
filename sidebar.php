@@ -8,8 +8,8 @@
             <li class="nav-item nav-item-contact-us"><a href="/contact-us"><i class="fa fa-envelope fa-fw"></i> Contact Us </a></li>
             <li>
 		        <div class="well subscribe-form">
-			        <div id="msg-form-wysija-html543bdcdf477de-1" class="wysija-msg ajax"></div>
-			        <form id="form-wysija-html543bdcdf477de-1" method="post" action="#wysija" class="widget_wysija html_wysija" role="form">
+			        <div id="msg-form-wysija-html543bdcdf477de-2" class="wysija-msg ajax"></div>
+			        <form id="form-wysija-html543bdcdf477de-2" method="post" action="#wysija" class="widget_wysija html_wysija" role="form">
 				        <div class="form-group">
 					        <label for="subscribe-name">Name</label>
 					        <input id="subscribe-name" type="text" name="wysija[field][cf_1]" class="form-control wysija-input validate[required]" title="Name"  value="" />
@@ -23,7 +23,6 @@
 				        <input type="hidden" name="controller" value="subscribers" />
 				        <input type="hidden" value="1" name="wysija-page" />
 				        <input type="hidden" name="wysija[user_list][list_ids]" value="1" />
-				        <input type="hidden" value="d7139e7b4e" id="wysijax" />
 				        <button class="btn btn-primary" type="submit">Subscribe via Email</button>
 			        </form>
 		        </div>

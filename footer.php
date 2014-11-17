@@ -23,14 +23,14 @@
 
 <?php wp_footer(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/site.js"></script>
-<script type="text/javascript" src="http://travel.fdysart.com/wp-content/plugins/wysija-newsletters/js/validate/languages/jquery.validationEngine-en.js?ver=2.6.11"></script>
-<script type="text/javascript" src="http://travel.fdysart.com/wp-content/plugins/wysija-newsletters/js/validate/jquery.validationEngine.js?ver=2.6.11"></script>
-<script type="text/javascript" src="http://travel.fdysart.com/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.6.11"></script>
+<script type="text/javascript" src="http://thedsoverseas.com/wp-content/plugins/wysija-newsletters/js/validate/languages/jquery.validationEngine-en.js?ver=2.6.11"></script>
+<script type="text/javascript" src="http://thedsoverseas.com/wp-content/plugins/wysija-newsletters/js/validate/jquery.validationEngine.js?ver=2.6.11"></script>
+<script type="text/javascript" src="http://thedsoverseas.com/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.6.11"></script>
 <script type="text/javascript">
     /* <![CDATA[ */
-    var wysijaAJAX = {"action":"wysija_ajax","controller":"subscribers","ajaxurl":"http://travel.fdysart.com/wp-admin/admin-ajax.php","loadingTrans":"Loading..."};
+    var wysijaAJAX = {"action":"wysija_ajax","controller":"subscribers","ajaxurl":"http://thedsoverseas.com/wp-admin/admin-ajax.php","loadingTrans":"Loading..."};
     /* ]]> */
-</script><script type="text/javascript" src="http://travel.fdysart.com/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.6.11"></script>
+</script><script type="text/javascript" src="http://thedsoverseas.com/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.6.11"></script>
 <!--END Scripts-->
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

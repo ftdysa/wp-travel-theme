@@ -5,7 +5,7 @@
         <div class="well">
         <form id="form-wysija-html543bdcdf477de-1" method="post" action="#wysija" class="form-inline widget_wysija html_wysija" role="form"> 
         
-<div id="msg-form-wysija-html543bdcdf477de-1" class="wysija-msg ajax"></div> 
+        <div id="msg-form-wysija-html543bdcdf477de-1" class="wysija-msg ajax"></div> 
         <div class="form-group"> 
                         <label for="subscribe-name">Name</label> 
                         <input id="subscribe-name" type="text" name="wysija[field][cf_1]" class="form-control wysija-input validate[required]" title="Name"  value="" /> 
@@ -19,7 +19,6 @@
                 <input type="hidden" name="controller" value="subscribers" /> 
                 <input type="hidden" value="1" name="wysija-page" /> 
                 <input type="hidden" name="wysija[user_list][list_ids]" value="1" /> 
-                <input type="hidden" value="d7139e7b4e" id="wysijax" /> 
                 <button style="margin-top: 15px;" class="btn btn-primary" type="submit">Subscribe!</button> 
         </form> 
         </div>

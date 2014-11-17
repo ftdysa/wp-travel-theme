@@ -36,7 +36,6 @@
                     <input type="hidden" name="controller" value="subscribers" /> 
                     <input type="hidden" value="1" name="wysija-page" /> 
                     <input type="hidden" name="wysija[user_list][list_ids]" value="1" /> 
-                    <input type="hidden" value="d7139e7b4e" id="wysijax" /> 
                     <button style="margin-top: 15px;" class="btn btn-primary" type="submit">Subscribe!</button> 
             </form> 
             </div>
