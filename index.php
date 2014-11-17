@@ -45,6 +45,27 @@
 
     endif;
     ?>
+
+    <ul class="pager">
+        <?php
+        $newer_link = get_previous_posts_link('Newer Posts <i class="fa fa-angle-double-right"></i>');
+        $older_link = get_next_posts_link('<i class="fa fa-angle-double-left"></i> Older Posts');
+        if ($older_link) {
+            ?>
+            <li class="previous">
+            <?php echo $older_link; ?>
+            </li>
+        <?php
+        }
+        if ($newer_link) {
+        ?>
+            <li class="next">
+            <?php echo $newer_link;?>
+            </li>
+        <?php
+        }
+        ?>
+    </ul>
 </div>
 
 <?php
