@@ -18,8 +18,8 @@
         }
         ?>
 
-        <div class="hidden-md">
-            <div class="well">
+        <div class="visible-xs-block visible-sm-block">
+           <div class="well">
             <form id="form-wysija-html543bdcdf477de-1" method="post" action="#wysija" class="form-inline widget_wysija html_wysija" role="form"> 
             
     <div id="msg-form-wysija-html543bdcdf477de-1" class="wysija-msg ajax"></div> 

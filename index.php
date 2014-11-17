@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <div class="col-md-9">
-    <div class="hidden-md">
+    <div class="visible-xs-block visible-sm-block">
         <div class="well">
         <form id="form-wysija-html543bdcdf477de-1" method="post" action="#wysija" class="form-inline widget_wysija html_wysija" role="form"> 
         
