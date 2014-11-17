@@ -26,6 +26,10 @@ $(function() {
         setActiveNav("about");
     } else if (document.location.pathname == '/map/') {
         setActiveNav("map");
+    } else if (document.location.pathname == '/galleries/') {
+        setActiveNav("galleries");
+    } else if (document.location.pathname == '/contact-us/') {
+        setActiveNav("contact-us");
     }
 
 });

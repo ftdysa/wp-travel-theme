@@ -4,7 +4,9 @@
             <li class="nav-item nav-item-home"><a href="/"><i class="fa fa-home fa-fw"></i> Home</a></li>
             <li class="nav-item nav-item-about"><a href="/about"><i class="fa fa-user fa-fw"></i> About</a></li>
             <li class="nav-item nav-item-map"><a href="/map"><i class="fa fa-map-marker fa-fw"></i> Map</a></li>
-	        <li>
+            <li class="nav-item nav-item-galleries"><a href="/galleries"><i class="fa fa-image fa-fw"></i> Galleries</a></li>
+            <li class="nav-item nav-item-contact-us"><a href="/contact-us"><i class="fa fa-envelope fa-fw"></i> Contact Us </a></li>
+            <li>
 		        <div class="well subscribe-form">
 			        <div id="msg-form-wysija-html543bdcdf477de-1" class="wysija-msg ajax"></div>
 			        <form id="form-wysija-html543bdcdf477de-1" method="post" action="#wysija" class="widget_wysija html_wysija" role="form">
